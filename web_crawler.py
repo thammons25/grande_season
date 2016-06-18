@@ -1,3 +1,5 @@
+# BUT HOW DO I MAKE IT DO ANYTHING 
+
 def get_next_target(page):
 	start_link = page.find('<a href=')
 	if start_link == -1:
@@ -37,3 +39,4 @@ def crawl_web(seed, max_depth):
 			to_crawl, next_depth = next_depth, []
 			depth = depth + 1
 	return crawled
+
