@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<style type = "text/css">
+			canvas {
+				border: 1px solid #d3d3d3;
+				background-color: #f1f1f1;
+			}
+		</style>
+
+
+	</head>
+	<body onload = "startGame()">
+		<h1>Hello, World!</h1>
+		<div style = "text-align:center;width:480px;">
+			<button onmousedown = "moveUp()" onmouseup = "clearMove()" ontouchstart = "moveUp()"> UP </button>
+			<br />
+			<br />
+			<button onmousedown = "moveLeft()" onmouseup = "clearMove()" ontouchstart = "moveLeft()"> LEFT </button>
+			<br><br>
+			<button onmousedown = "moveRight()" onmouseup = "clearMove()" ontouchstart = "moveRight()"> RIGHT </button>
+			<br><br>
+			<button onmousedown = "moveDown()" onmouseup = "clearMove()" ontouchstart = "moveDown()"> DOWN </button>
+		</div>
+		<script language = "JavaScript" src = "./test.js"></script>
+	</body>
+</html>
